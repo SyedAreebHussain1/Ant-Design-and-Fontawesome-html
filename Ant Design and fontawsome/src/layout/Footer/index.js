@@ -4,8 +4,6 @@ import { FloatButton } from 'antd';
 
 const AppFooter = () => {
     // const { BackTop } = BackTop;
-
-
     return (
         <div className="container-fluid">
             <div className="footer">

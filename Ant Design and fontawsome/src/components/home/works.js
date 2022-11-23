@@ -16,7 +16,7 @@ const AppWorks = () => {
         setIsModalOpen(false);
     };
     return (
-        <div className="block worksBlock">
+        <div id="works" className="block worksBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h1>How it work</h1>

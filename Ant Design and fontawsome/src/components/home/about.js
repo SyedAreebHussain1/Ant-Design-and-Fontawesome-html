@@ -23,7 +23,7 @@ const items = [
 ]
 const AppAbout = () => {
     return (
-        <div className="block aboutBlock">
+        <div id="about" className="block aboutBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>About Us </h2>
@@ -36,7 +36,7 @@ const AppAbout = () => {
                     {
                         items.map((itemv, i) => {
                             return (
-                                <Col span={8} key={itemv.key}>
+                                <Col md={{ span: 8 }} key={itemv.key}>
                                     <div className="content">
                                         <div className="icon">
                                             {itemv.icon}

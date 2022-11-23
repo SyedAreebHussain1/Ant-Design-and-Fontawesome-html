@@ -46,7 +46,7 @@ const data = [
 ];
 const AppPricing = () => {
     return (
-        <div className="block pricingBlock bgGray">
+        <div id='pricing' className="block pricingBlock bgGray">
             <div className='container-fluid'>
                 <div className='titleHolder'>
                     <h2>Choose a plan to fit your needs</h2>
@@ -56,7 +56,7 @@ const AppPricing = () => {
                     grid={{
                         gutter: 16,
                         xs: 1,
-                        sm: 2,
+                        sm: 1,
                         md: 4,
                         lg: 4,
                         xl: 3,

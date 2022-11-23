@@ -30,7 +30,7 @@ function AppHero() {
         background: '#364d79',
     };
     return (
-        <div className="heroBlock">
+        <div id="hero" className="heroBlock">
             <Carousel>
                 {
                     items.map((itemv, i) => {

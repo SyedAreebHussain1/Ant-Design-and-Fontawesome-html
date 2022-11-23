@@ -2,8 +2,9 @@
 import './App.css';
 import AppHeader from './layout/Header';
 import AppHome from './views/home';
-import AppFooter from './components/home/footer';
+import AppFooter from './layout/Footer';
 import { Layout } from 'antd';
+
 const { Header, Content, Footer } = Layout;
 
 function App() {

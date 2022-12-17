@@ -11,7 +11,6 @@ const AppHome = () => {
     return (
         <div className="main">
             <AppHero />
-            <br/>
             <AppAbout />
             <AppFeature />
             <AppWorks />
